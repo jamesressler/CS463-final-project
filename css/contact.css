@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  width: 50vw;
+}
+
+.flex-container-wrap-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5% 20%;
+}
+
+.form {
+  border: 1px solid var(--gray3);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-element {
+  padding: 15px;
+}
+
+.form-input-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-weight: bold;
+}
+
+.form-date-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: start;
+  gap: 10px;
+  width: 100%;
+}
+
+.form-submit-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.btn {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  text-decoration: none;
+  border: 1px solid var(--green);
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background-color: var(--orange);
+  color: var(--black);
+}
+
+.btn-secondary {
+  background-color: var(--white);
+  color: var(--green);
+}
+
+.btn-secondary:hover {
+  background-color: var(--red);
+  color: var(--white);
+}

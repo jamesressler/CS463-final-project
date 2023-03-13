@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
   </head>
   <body>
     <nav>
@@ -29,5 +30,43 @@
         </li>
       </ul>
     </nav>
+    <section class="flex-container flex-container-wrap-center">
+      <form action="/submit" class="form">
+        <h1>Contact</h1>
+        <div class="form-input-text">
+          <div class="form-element">
+            <label for="name">Name:</label>
+          </div>
+          <div class="form-element">
+            <input type="text" id="name" name="name" placeholder="Full Name" />
+          </div>
+          <div class="form-element">
+            <label for="email">Email:</label>
+          </div>
+          <div class="form-element">
+            <input type="email" id="email" name="email" placeholder="Email" />
+          </div>
+          <div class="form-element">
+            <label for="form-control">Message:</label>
+          </div>
+          <div class="form-element">
+            <textarea
+              class="form-control"
+              rows="5"
+              name="message"
+              placeholder="What would you like to say?"
+            ></textarea>
+          </div>
+        </div>
+        <div class="form-element form-date-input">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" />
+        </div>
+        <div class="form-element form-submit-input">
+          <input type="submit" value="Submit" class="btn btn-primary" />
+          <input type="reset" value="Reset" class="btn btn-secondary" />
+        </div>
+      </form>
+    </section>
   </body>
 </html>
