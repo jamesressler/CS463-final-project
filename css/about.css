@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  width: 50vw;
+}
+
+.profile-thumb {
+  border-radius: 100px;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+}
+
+.flex-container-wrap-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5% 20%;
+}
+
+p::first-line {
+  font-weight: bold;
+}
