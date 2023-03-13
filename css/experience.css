@@ -1,0 +1,6 @@
+.flex-container-wrap-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5%;
+}
