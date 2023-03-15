@@ -30,3 +30,13 @@
 .nav-link:focus {
   border-color: var(--orange);
 }
+
+.navbar-brand {
+  background-color: var(--cyan);
+  color: var(--white);
+  display: block;
+  margin: 10px 10px;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 20px;
+}
