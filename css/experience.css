@@ -1,6 +1,11 @@
-.flex-container-wrap-center {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 5%;
+.iframe-block {
+  display: block;
+  padding: 5% 20% 5%;
+}
+
+@media (max-width: 990px) {
+  .iframe-block {
+    display: block;
+    padding: 0%;
+  }
 }
